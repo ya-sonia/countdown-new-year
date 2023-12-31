@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background:url(bg.jpeg);
+    
+    
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+
+
+
+
+
+
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+    color: rgb(240,240,240);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.countdown{
+    text-align: center;
+    font-size: 4rem;
+}
+.timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+}
+.time{
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    border: 4px solid #9ba8a7;
+    backdrop-filter: blur(10px);
+    margin: 0 1rem;
+   border-radius: 1rem;
+}
+.countdown_container span{
+font-size: 1rem;
+font-weight: bold;
+color: rgb(233, 233, 233);
+}
+.container{
+    z-index: 99999999;
+}
+
+
+
+
+
+.snow{
+    background: url(snow.png);
+    height: 100vh;
+    width: 200vh;
+    background-repeat: repeat;
+   animation: snow 1.5s linear infinite;
+}
+
+@keyframes snow{
+    0%{ background-position: 50px 50px;}
+    20%{ background-position: 100px 100px;}
+    30%{ background-position: 150px 150px;}
+    40%{ background-position: 200px 200px;}
+    50%{ background-position: 250px 250px;}
+    60%{ background-position: 300px 300px;}
+    80%{ background-position: 350px 350px;}
+   100%{ background-position: 400px 400px;}
+}
